@@ -7,6 +7,7 @@
     --cor1: #454851;
     --cor2: #C09F80;
     --cor4: #59A96A;
+    --cor5: #757a8a;
     --font0: arial, helvetica, sans-serif;
     --font1: 'Bebas Neue', cursive;
 }
@@ -87,5 +88,9 @@ aside{
 
 footer{
     background-color: black;
+    color: var(--cor5);
+}
+
+span{
     color: white;
 }
