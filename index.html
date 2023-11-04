@@ -7,6 +7,7 @@
         <title>208 Modulados</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">        
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media-queries.css">
     </head>
     <body>
 
@@ -18,7 +19,10 @@
             <h2>Fabricamos todos os tipos de móveis em MDF</h2>
             
             <p>Armário</p>
-            <img src="imagens/armario.jpg" alt="">
+            <picture>
+                <source media="(min-width: 1200px)" srcset="imagens/armario.jpg" type="image/jpg">
+                <img src="imagens/armario-300.jpg" alt="">
+            </picture>
             <p>Cozinha</p>
             <img src="imagens/cozinha.jpg" alt="">
             <p>Banheiro</p>
