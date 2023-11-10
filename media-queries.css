@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 620px) and (max-width: 992px){
+@media screen and (max-width: 768px){
     main h2{
         font-size: 1em;
+    }
+    iframe{
+        width: 400px;
     }
 }
